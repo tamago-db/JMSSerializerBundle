@@ -11,9 +11,15 @@
             "email": "schmittjoh@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tamago-db/serializer.git"
+        }
+    ],
     "require": {
         "php": ">=5.3.2",
-        "jms/serializer": "dev-master",
+        "jms/serializer": "dev-tamago@dev",
         "symfony/framework-bundle": "~2.1"
     },
     "require-dev": {
